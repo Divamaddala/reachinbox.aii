@@ -90,14 +90,21 @@ const CenterPage: React.FC<Props> = ({ selectedThread }) => {
       } else {
         setSelectedMail([
           {
-            id: 0,
-            fromName: "",
-            fromEmail: "jeanne@icloud.com",
-            toName: "",
-            toEmail: "lennon.j@mail.com",
-            subject: "New Product Launch",
-            body: "I would like to introduce you to SaaSgrow, a productized design service specifically tailored for saas startups. Our aim is to help you enhance the user experience and boost the visual appeal of your software products.",
-            sentAt: "2022-01-01T00:00:00.000Z",
+          {
+    "toName": "Mitrajit",
+    "to": "chandra.rupam@gmail.com",
+    "from": "mitrajit2022@gmail.com",
+    "fromName": "Mitrajit",
+    "subject": "Optimize Your Recruitment Efforts with Expert Support",
+    "body": "<p>Hello how are you</p>",
+    "references": [
+        "<dea5a0c2-336f-1dc3-4994-191a0ad3891a@gmail.com>",
+        "<CAN5Dvwu24av80BmEg9ZVDWaP2+hTOrBQn9KhjfFkZZX_Do88FA@mail.gmail.com>",
+        "<CAN5DvwuzPAhoBEpQGRUOFqZF5erXc=B98Ew_5zbHF5dmeKWZMQ@mail.gmail.com>",
+        "<a1383d57-fdee-60c0-d46f-6bc440409e84@gmail.com>"
+    ],
+    "inReplyTo": "<a1383d57-fdee-60c0-d46f-6bc440409e84@gmail.com>"
+}
           },
         ]);
       }
@@ -181,7 +188,7 @@ const Mail: React.FC<MailData> = ({ fromEmail, toEmail, subject, body }) => {
             <div className="mail-from">from: {fromEmail}</div>
             <div className="mail-to">to: {toEmail}</div>
           </div>
-          <div className="mail-date">20 June 2022 : 9:16 AM</div>
+          <div className="mail-date">24 August 2024 : 9:11 AM</div>
         </div>
         <div
           className="mail-body"
