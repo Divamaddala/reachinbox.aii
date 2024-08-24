@@ -91,19 +91,19 @@ const CenterPage: React.FC<Props> = ({ selectedThread }) => {
         setSelectedMail([
           {
           {
-    "toName": "Mitrajit",
-    "to": "chandra.rupam@gmail.com",
-    "from": "mitrajit2022@gmail.com",
-    "fromName": "Mitrajit",
-    "subject": "Optimize Your Recruitment Efforts with Expert Support",
-    "body": "<p>Hello how are you</p>",
-    "references": [
-        "<dea5a0c2-336f-1dc3-4994-191a0ad3891a@gmail.com>",
-        "<CAN5Dvwu24av80BmEg9ZVDWaP2+hTOrBQn9KhjfFkZZX_Do88FA@mail.gmail.com>",
-        "<CAN5DvwuzPAhoBEpQGRUOFqZF5erXc=B98Ew_5zbHF5dmeKWZMQ@mail.gmail.com>",
-        "<a1383d57-fdee-60c0-d46f-6bc440409e84@gmail.com>"
+    toName: Mitrajit,
+    to: chandra.rupam@gmail.com,
+    from: mitrajit2022@gmail.com,
+    fromName: Mitrajit,
+    subject: Optimize Your Recruitment Efforts with Expert Support,
+    body: <p>Hello how are you</p>,
+    references: [
+        <dea5a0c2-336f-1dc3-4994-191a0ad3891a@gmail.com>,
+        <CAN5Dvwu24av80BmEg9ZVDWaP2+hTOrBQn9KhjfFkZZX_Do88FA@mail.gmail.com>,
+        <CAN5DvwuzPAhoBEpQGRUOFqZF5erXc=B98Ew_5zbHF5dmeKWZMQ@mail.gmail.com>,
+        <a1383d57-fdee-60c0-d46f-6bc440409e84@gmail.com>
     ],
-    "inReplyTo": "<a1383d57-fdee-60c0-d46f-6bc440409e84@gmail.com>"
+    inReplyTo": "<a1383d57-fdee-60c0-d46f-6bc440409e84@gmail.com>
 }
           },
         ]);
