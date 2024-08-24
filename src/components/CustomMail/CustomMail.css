@@ -1,0 +1,148 @@
+/* CustomMail.css */
+.custom-mail-container {
+  background-color: rgba(128, 128, 128, 0.25); /* gray-400/25 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  z-index: 20;
+}
+
+input, textarea{
+  outline: none;
+}
+
+.custom-mail-box {
+  background-color: #ffffff;
+  width: 50%;
+  height: 80%;
+  border-radius: 0.5rem; /* rounded-lg */
+  border: 1px solid #dddddd;
+}
+
+.custom-mail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #dddddd;
+  border-radius: 0.5rem 0.5rem 0 0; /* rounded-t-lg */
+}
+
+.custom-mail-header-title {
+  padding-left: 1rem;
+  font-size: 0.875rem; /* text-sm */
+}
+
+.custom-mail-close {
+  cursor: pointer;
+  font-size: 1.25rem; /* text-xl */
+}
+
+.custom-mail-input-container,
+.custom-mail-textarea-container {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #dddddd;
+}
+
+.custom-mail-input-container .label,
+.custom-mail-textarea-container .label {
+  color: #333333;
+}
+
+.custom-mail-input,
+.custom-mail-textarea {
+  background-color: transparent;
+  margin-left: 0.8rem;
+}
+
+.custom-mail-input {
+  flex: 1;
+}
+
+.custom-mail-textarea {
+  flex: 1;
+  height: 250px;
+}
+
+.custom-mail-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 4rem; /* h-16 */
+  padding-left: 2rem; /* ml-8 */
+}
+
+.custom-mail-send-button {
+  background: linear-gradient(to right, #4B63DD, #0524BFFC);
+  padding: 0.5rem 1.25rem;
+  border-radius: 0.375rem; /* rounded-md */
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-mail-send-button-icon {
+  margin-left: 1rem;
+}
+
+.custom-mail-footer .icon {
+  color: #333333;
+}
+
+.custom-mail-icon-container {
+  display: flex;
+  gap: 0.75rem; /* space-x-3 */
+  font-size: 1.25rem; /* text-xl */
+}
+
+.custom-mail-icon-container .icon {
+  color: #333333;
+}
+
+/* Dark mode styles */
+.dark .custom-mail-container {
+  background-color: rgba(0, 0, 0, 0.25); /* darker background */
+}
+
+.dark .custom-mail-box {
+  background-color: #141517;
+  border: 1px solid #41464B;
+}
+
+.dark .custom-mail-header {
+  background-color: #23272C;
+  border-bottom: 1px solid #41464B;
+}
+
+.dark .custom-mail-header-title {
+  color: #BAB9BD;
+}
+
+.dark .custom-mail-close {
+  color: #BAB9BD;
+}
+
+.dark .custom-mail-input-container,
+.dark .custom-mail-textarea-container {
+  border-bottom: 1px solid #41464B;
+}
+
+.dark .custom-mail-input-container .label,
+.dark .custom-mail-textarea-container .label {
+  color: #BAB9BD;
+}
+
+.dark .custom-mail-footer .icon {
+  color: #ADADAD;
+}
+
+.dark .custom-mail-icon-container .icon {
+  color: #ADADAD;
+}

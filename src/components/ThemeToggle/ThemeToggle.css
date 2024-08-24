@@ -1,0 +1,26 @@
+/* ThemeToggle.css */
+.theme-toggle {
+    margin-right: 2.5rem; /* mr-10 */
+  }
+  
+  .theme-toggle-button {
+    background-color: #e5e7eb; /* bg-gray-200 */
+    color: #1f2937; /* text-gray-800 */
+    padding-left: 0.75rem; /* px-3 */
+    padding-right: 0.40rem; /* px-3 */
+    padding-top: 0.5rem; /* py-2 */
+    padding-bottom: 0.5rem; /* py-2 */
+    border-radius: 0.375rem; /* rounded-md */
+    display: flex;
+    align-items: center;
+  }
+  
+  .theme-toggle-button.dark {
+    background-color: #374151; /* dark:bg-gray-700 */
+    color: #ffffff; /* dark:text-white */
+  }
+  
+  .theme-toggle-icon {
+    margin-right: 0.5rem; /* mr-2 */
+  }
+  

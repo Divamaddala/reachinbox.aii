@@ -1,0 +1,98 @@
+/* Sidebar.css */
+.sidebar {
+    background-color: white;
+    overflow-y: scroll;
+    height: 100vh;
+    width: 56px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-right: 2px solid #E0E0E0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .sidebar::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .dark .sidebar {
+    background-color: #101113;
+    border-color: #343A40;
+  }
+  
+  .sidebar-logo {
+    margin-top: -20px;
+    border-radius: 16px;
+    margin-bottom: 30px;
+    height: 48px;
+    object-fit: left;
+    overflow: visible;
+  }
+  
+  .sidebar-menu {
+    color: #AEAEAE;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .sidebar-item {
+    cursor: pointer;
+    padding: 4px;
+  }
+  
+  .sidebar-item.active {
+    transform: scale(1.2);
+    border-radius: 8px;
+    animation: activeAnimation .3s ease-in-out;
+  }
+
+  @keyframes activeAnimation {
+
+    from{
+      transform: scale(1);
+    }to{
+      transform: scale(1.2);
+    }
+    
+  }
+  
+  .sidebar-footer {
+    display: flex;
+    width: 34px;
+    height: 32px;
+    color: white;
+    background-color: red; /* green-500 */
+    padding: 8px;
+    border-radius: 9999px; /* full */
+  }
+
+  .sidebar-footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .profile-circle {
+    padding: 10px;
+  }
+  
+  .user-profile .icon {
+    border-radius: 50%;
+    
+  }
+  

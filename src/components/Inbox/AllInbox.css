@@ -1,0 +1,293 @@
+/* AllInbox.css */
+
+.container {
+  border-right: 2px solid #E0E0E0;
+  background-color: #FAFAFA;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.container::-webkit-scrollbar{
+  display: none;
+}
+
+.header1 {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  margin-left: 20px;
+  font-size: 20px;
+  padding: 0px 0;
+  color: rgba(66, 133, 244, 1);
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.header-title div{
+  display: flex;
+}
+
+.header-title .desc{
+  font-size: 15px;
+  color: grey;
+}
+
+.dark .header-title .desc{
+  font-size: 15px;
+  color: grey;
+}
+
+.header-title .desc pre{
+  font-size: 15px;
+  color: black;
+  font-weight: 600;
+}
+
+.dark .header-title .desc pre{
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.header-title-icon {
+  margin-left: 8px;
+  font-weight: normal;
+  margin-top: 4px;
+  cursor: pointer;
+}
+
+.header-info {
+  color: black;
+  font-size: 12px;
+}
+
+.header-info span {
+  color: #7F7F7F;
+  font-weight: normal;
+}
+
+.reload-button {
+  padding: 12px;
+  margin-top: 12px;
+  background-color: white;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  cursor: pointer;
+  margin-right: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.reload-button-icon {
+  color: black;
+}
+
+.search-container {
+  margin: 16px 32px;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  background-color: #F4F6F8;
+  border-radius: 8px;
+  padding: 4px 4px 4px 32px;
+  border: 1px solid #DFE3E8;
+}
+
+.search-icon {
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gray;
+  height: 20px;
+  width: 20px;
+}
+
+.new-replies {
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.new-replies-count {
+  background-color: #ECECEC;
+  color: #5C7CFA;
+  padding: 4px 8px;
+  border-radius: 24px;
+}
+
+.sort-options {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.sort-icon {
+  margin-left: 12px;
+  font-size: 1.25rem;
+}
+
+.mail-item {
+  border-top: 2px solid #8b8b8b64;
+  margin: 0 32px;
+  padding: 16px 0;
+  cursor: pointer;
+}
+
+.mail-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mail-from {
+  color: black;
+  font-size: 1.125rem;
+}
+
+.mail-date {
+  font-size: 12px;
+  color: #919EAB;
+  font-weight: thin;
+  padding-right: 12px;
+}
+
+.mail-subject {
+  font-size: 12px;
+  font-weight: 500 !important;
+  padding: 8px 0;
+}
+
+.mail-tags {
+  display: flex;
+}
+
+.mail-tag {
+  background-color: cyan;
+  color: orange;
+  width: auto;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.mail-tag-campaign {
+  background-color: #F0F0F0;
+  color: black;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+/* Dark mode styles */
+.dark .container {
+  padding-top: 20px;
+  border-right: 1px solid #41464B;
+  background: rgba(0, 0, 0, 1);
+}
+
+.dark .header1 {
+  background-color: black;
+}
+
+.dark .header-title {
+  color: #8AB4F8;
+}
+
+.dark .header-title-icon {
+  color: #8AB4F8;
+}
+
+.dark .header-info {
+  color: #E0E0E0;
+  font-size: 12px;
+}
+
+.dark .header-info span {
+  color: #B0B0B0;
+}
+
+.dark .reload-button {
+  background: rgba(37, 38, 43, 1);
+  color: white;
+  border: 1px solid #555;
+}
+
+.dark .reload-button-icon {
+  color: #E0E0E0;
+}
+
+.dark .search-container {
+  background: rgba(35, 39, 44, 1);
+}
+
+.dark .search-input {
+  background: rgba(35, 39, 44, 1);
+  border: 1px solid #555;
+  color: #E0E0E0;
+}
+
+.dark .search-icon {
+  color: #B0B0B0;
+}
+
+.dark .new-replies {
+  background-color: black;
+}
+
+.dark .new-replies-count {
+  background: var(--Input-Field-BG, rgba(34, 36, 38, 1));
+  font-size: 15px;
+
+}
+
+.dark .sort-options {
+  color: #E0E0E0;
+  font-size: 15px;
+}
+
+.dark .sort-icon {
+  color: #E0E0E0;
+}
+
+.dark .mail-item {
+  border-top: 2px solid #41464B;
+}
+
+.mail-from-by {
+  font-size: 15px;
+  color: black;
+}
+
+.dark .mail-from-by {
+  font-size: 15px;
+  color: #E0E0E0;
+}
+
+.dark .mail-date {
+  color: #B0B0B0;
+}
+
+.dark .mail-subject {
+  margin-top: -10px;
+  font-size: 12.2px;
+}
+
+.dark .mail-tag {
+  background: rgba(35, 39, 44, 1);
+  color: rgba(87, 224, 166, 1);
+}
+
+.dark .mail-tag-campaign {
+  background: rgba(35, 39, 44, 1);
+  color: #E0E0E0;
+}

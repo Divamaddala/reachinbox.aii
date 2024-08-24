@@ -1,0 +1,14 @@
+/* Footer.css */
+.footer {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.875rem; /* text-sm */
+    position: fixed;
+    bottom: 0;
+    width: 100vw; /* w-screen */
+    height: 2rem; /* h-8 */
+    color: #5C5F66;
+  }
+  

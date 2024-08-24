@@ -1,0 +1,49 @@
+/* TopBar.css */
+.topbar {
+  font-size: 20px;
+    height: 4rem; /* 16 * 0.25rem = 4rem */
+    width: 100vw;
+    background-color: white;
+    position: fixed;
+    padding-left: 3.5rem; /* 14 * 0.25rem = 3.5rem */
+    padding-right: 3.5rem; /* 14 * 0.25rem = 3.5rem */
+    color: #5B5F66;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-width: 2px;
+    border-bottom-color: #E0E0E0;
+  }
+  
+  .dark .topbar {
+    background: rgba(31, 31, 31, 1);
+    color: white;
+    border-bottom-color: #343A40;
+  }
+  
+  .topbar-right {
+    padding-right: 2.5rem; /* 10 * 0.25rem = 2.5rem */
+    display: flex;
+    align-items: center;
+  }
+  
+  .topbar-icon {
+    font-size: 1.875rem; /* 3xl equivalent */
+    margin-left: 0.75rem; /* ml-3 equivalent */
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 0.75rem; /* Equivalent to margin-right: ml-3 */
+  }
+  
